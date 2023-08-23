@@ -98,6 +98,9 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
+    background: url(assets/images/hero-backgroundphoto.png) no-repeat;
+    background-size: cover;
+ 
 }
 
 .home-content {
@@ -152,7 +155,7 @@ section {
     transform: scale(110%);
 }
 
-.btn-box .btn1 {
+.btn-box .btn:nth-child(2) {
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -161,11 +164,61 @@ section {
     height: 100%;
     font-size: 1.7rem;
     color:#4a7973;
+    background-color: transparent;
     padding: 1rem 3%;
     transition: .3s;
 }
 
-.btn-box .btn1:hover {
+.btn-box .btn:nth-child(2):hover {
     transform: scale(110%);
 }
+
+.home-soc {
+    position: absolute;
+    bottom: 4rem;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-soc a {
+    font-size: 2rem;
+    color: black;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    transition: .3s;
+}
+
+.home-soc a:hover {
+    color: #4a7973;
+    transform: scale(110%);
+}
+
+.home-imgHover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    transition: 3s;
+}
+
+.home-imgHover:hover {
+    background: white;
+    opacity: .8;
+}
+
+
+
+
+
+
+
+
 /**/
